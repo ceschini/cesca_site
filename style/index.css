@@ -1,0 +1,66 @@
+body {
+  background-image: url("../img/asphalt_bg_2.png");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Barra de Navegação */
+.logo {
+  font-family: "xtreem_medium_personal_useRg";
+  font-size: 5em;
+  margin-right: 2rem;
+}
+
+.navbar-nav {
+  font-size: 1.5em;
+}
+
+.navbar-nav>a {
+  margin-right: 2rem;
+}
+
+/* História */
+.historia {
+  padding-left: 17%;
+}
+
+.historia-txt {
+  width: 37%;
+  margin-left: 2rem;
+}
+
+.historia h1 {
+  padding-bottom: 30px;
+}
+
+.img-mestre img {
+  width: 300px;
+  height: auto;
+  border-radius: 10%;
+}
+
+/* Contato */
+.contato {
+  font-size: 1.2rem;
+  padding-left: 25%;
+  color: white;
+  padding-bottom: 30px;
+  width: 75%;
+}
+
+/* Rodapé */
+.rodape {
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "xtreem_medium_personal_useRg";
+  font-size: 300%;
+}
+
+.rodape a:hover {
+  text-decoration: none;
+}
