@@ -7,12 +7,12 @@ header {
   justify-content: center;
 }
 
-/* Barra de Navegação */
 .logo {
   font-family: "xtreem_medium_personal_useRg";
   font-size: 5em;
   margin-right: 2rem;
 }
+/* Barra de Navegação */
 
 .navbar-nav {
   font-size: 1.5em;
@@ -24,7 +24,7 @@ header {
 
 /* História */
 .historia {
-  padding-left: 17%;
+  padding-left: 25%;
 }
 
 .historia-txt {
@@ -42,6 +42,12 @@ header {
   border-radius: 10%;
 }
 
+a.fab {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
 /* Contato */
 .contato {
   font-size: 1.2rem;
@@ -51,14 +57,20 @@ header {
   width: 75%;
 }
 
+.btn {
+  margin-left:43%;
+  margin-top: 20px;
+}
+
 /* Rodapé */
 .rodape {
-  padding-left: 10px;
   width: 100%;
-  display: flex;
-  justify-content: center;
   font-family: "xtreem_medium_personal_useRg";
   font-size: 300%;
+}
+
+.fa-github  {
+  margin-left:2.3rem;
 }
 
 .rodape a:hover {
